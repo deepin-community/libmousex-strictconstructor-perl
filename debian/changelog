@@ -1,5 +1,62 @@
-template-repository (1.0-1) unstable; urgency=medium
+libmousex-strictconstructor-perl (0.02-3) unstable; urgency=medium
 
-  * Initial release
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Bump debhelper from old 12 to 13.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sun, 11 Dec 2022 00:48:00 +0000
+
+libmousex-strictconstructor-perl (0.02-2.1) unstable; urgency=medium
+
+  * Non maintainer upload by the Reproducible Builds team.
+  * No source change upload to rebuild on buildd with .buildinfo files.
+
+ -- Holger Levsen <holger@debian.org>  Mon, 28 Dec 2020 15:51:41 +0100
+
+libmousex-strictconstructor-perl (0.02-2) unstable; urgency=medium
+
+  * Team upload
+
+  [ Ansgar Burchardt ]
+  * debian/control: Convert Vcs-* fields to Git.
+
+  [ Salvatore Bonaccorso ]
+  * Change Vcs-Git to canonical URI (git://anonscm.debian.org)
+  * Change search.cpan.org based URIs to metacpan.org based URIs
+
+  [ Axel Beckert ]
+  * debian/copyright: migrate pre-1.0 format to 1.0 using "cme fix dpkg-
+    copyright"
+
+  [ gregor herrmann ]
+  * Strip trailing slash from metacpan URLs.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-Browser URL to cgit web frontend
+  * debian/control: Use HTTPS transport protocol for Vcs-Git URI
+
+  [ gregor herrmann ]
+  * debian/copyright: change Copyright-Format 1.0 URL to HTTPS.
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ Florian Schlichting ]
+  * Bump dh compat to level 11
+  * Mark package autopkgtest-able
+  * Declare compliance with Debian Policy 4.1.4
+  * Add no-dot-in-inc.patch
+
+ -- Florian Schlichting <fsfs@debian.org>  Tue, 03 Jul 2018 22:04:37 +0200
+
+libmousex-strictconstructor-perl (0.02-1) unstable; urgency=low
+
+  * Initial Release. (Closes: #617937)
+
+ -- Dominique Dumont <domi.dumont@free.fr>  Thu, 17 Mar 2011 16:21:21 +0100
